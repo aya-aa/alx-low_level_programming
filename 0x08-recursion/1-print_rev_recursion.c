@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev_recursion- is a recursive function that prints a string in reverse
+ * _print_rev_recursion - is a recursive function that prints a string in reverse
  * @s:string to print
  * return: always 0 success
  * description: this function uses recursion to print characters
@@ -11,7 +11,4 @@ if (*s)
 {
 	_print_rev_recursion(s + 1);
 	_putchar(*s);
-}
-else
-	return;
 }
