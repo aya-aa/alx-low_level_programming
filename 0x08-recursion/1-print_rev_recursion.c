@@ -12,6 +12,6 @@ if(*s)
 		_putchar(*s);
 }
 else
-	_putchar('\n');
+	return;
 
 }
