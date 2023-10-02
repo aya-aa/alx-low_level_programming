@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* _strlen_rcursion - recursive function returns length of char*
+* _strlen_recursion - recursive function returns length of char*
 * @s: input string
-* output: int
+* output: int length of string
 */
 
 int _strlen_recursion(char *s)
