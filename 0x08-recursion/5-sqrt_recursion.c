@@ -19,7 +19,7 @@ else
 /**
 * _sqrt_recursion - return the square root of a number
 * @n : input int
-* Return : the square root of the number or -1
+* Return: The square root of the number or -1
 */
 
 int _sqrt_recursion(int n)
