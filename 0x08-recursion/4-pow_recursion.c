@@ -2,8 +2,8 @@
 /**
 * _pow_recursion - returns pow of x by y
 *@x : the base
-*@y : the exponent
-* Return : x raised to the power of y
+*@y: the exponent
+* Return: The result of x^y
 */
 
 int _pow_recursion(int x, int y)
