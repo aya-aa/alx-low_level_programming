@@ -1,15 +1,9 @@
 #include "main.h"
 /**
-* _sqrt_recursion - return the square root of a number
-* @n : input int
-* Return : the square root of the number or -1
-*/
-
-/**
-* _sqrt_function - helper function to calculate the square root of a number
-* @n : input int
-* @i: input i counter
-* Return : the square root of the number or -1
+* _sqrt_function - Helper function to calculate the square root of a number recursively.
+* @n: The input number.
+* @i: The current iteration counter.
+* Return: The square root of the number. If there's no exact square root, returns -1.
 */
 
 int _sqrt_function(int n, int i)
@@ -21,6 +15,12 @@ else if (i * i == n)
 else
 	return (_sqrt_function(n, i + 1));
 }
+
+/**
+* _sqrt_recursion - return the square root of a number
+* @n : input int
+* Return : the square root of the number or -1
+*/
 
 int _sqrt_recursion(int n)
 {
