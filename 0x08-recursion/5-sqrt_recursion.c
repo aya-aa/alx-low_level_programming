@@ -14,7 +14,7 @@ if (i * i > n)
 else if (i * i == n)
 	return (i);
 else 
-	return(_sqrt_function( n, i+1);
+	return(_sqrt_function(n, i+1));
 }
 
 int _sqrt_recursion( int n)
@@ -22,5 +22,5 @@ int _sqrt_recursion( int n)
 if (n < -1)
        return (-1);
 else 
-	retrun(_sqrt_function(n, 0));
+	return(_sqrt_function(n, 0));
 }
