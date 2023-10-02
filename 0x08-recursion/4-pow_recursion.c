@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-*_pow_recursion - returns pow of x by y
-*@x@y : input int
+* _pow_recursion - returns pow of x by y
+*@x : the base
+*@y : the exponent
 *Return - x raised to the power of y
 */
 
@@ -15,6 +16,6 @@ else if (y == 0)
 	return (1);
 else
 {
-	return (x * _pow_recursion(x,y - 1));
+	return (x * _pow_recursion(x, y - 1));
 }
 }
