@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* _sqrt_function - Helper function to calculate the square root of a number recursively.
+* _sqrt_function - Helper function to calculate the square root
 * @n: The input number.
 * @i: The current iteration counter.
-* Return: The square root of the number. If there's no exact square root, returns -1.
+* Return: The square root of the number else returns -1.
 */
 
 int _sqrt_function(int n, int i)
