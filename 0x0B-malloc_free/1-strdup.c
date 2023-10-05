@@ -13,7 +13,7 @@ int i;
 if (str == NULL)
 return (NULL);
 
-unsigned i = 1;
+unsigned int i = 1;
 while (str[i] != '\0')
 i++;
 
