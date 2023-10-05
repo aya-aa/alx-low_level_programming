@@ -13,6 +13,7 @@ if (size == 0)
 return (NULL);
 else
 {
+int i;
 char *p;
 p = malloc(sizeof(char) * size);
 for(i=0; i < size;i++)
