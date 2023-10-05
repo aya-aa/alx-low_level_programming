@@ -15,10 +15,9 @@ else
 {
 char *p;
 p = malloc(sizeof(char) * size);
-while (*p)
+for(i=0; i < size;i++)
 {
-*p = c;
-p++;
+p[i] = c;
 }
 return (p);
 }
